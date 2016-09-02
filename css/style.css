@@ -1,0 +1,11 @@
+a.spoiler:after {
+	content: " [-] ";	
+}
+
+a.spoiler.collapsed:after {
+	content: "[+]";
+}
+
+.tab-pane {
+	margin-top: 10px;
+}
